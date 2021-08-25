@@ -1,6 +1,6 @@
 {
   "name": "memory",
-  "homepage": "https://lukajez.github.io/memory-game/memory/",
+  "homepage": "https://lukajez.github.io/memory-game/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
