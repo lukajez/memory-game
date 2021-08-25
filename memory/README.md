@@ -1,5 +1,5 @@
 #Deployed at:
-Open [https://lukajez.github.io/landing](https://lukajez.github.io/landing) to view it in the browser.
+Open [https://lukajez.github.io/memory-game/](https://lukajez.github.io/memory-game/) to view it in the browser.
 
 ## Available Scripts
 
