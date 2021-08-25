@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+##Deployed at:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open [https://lukajez.github.io/memory-game/](https://lukajez.github.io/memory-game/) to view it in the browser.
 
 ## Available Scripts
 
