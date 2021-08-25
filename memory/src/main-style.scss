@@ -1,0 +1,298 @@
+@font-face {
+  font-family: 'Staatliches';
+  src: url('./static/fonts/Staatliches/Staatliches-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SulphurPoint-Light';
+  src: url('./static/fonts/SulphurPoint/SulphurPoint-Light.ttf');
+}
+
+@font-face {
+  font-family: 'SulphurPoint-Regular';
+  src: url('./static/fonts/SulphurPoint/SulphurPoint-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'SulphurPoint-Bold.ttf';
+  src: url('./static/fonts/SulphurPoint/SulphurPoint-Bold.ttf');
+}
+
+html::-webkit-scrollbar {
+  width: 4px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #1b1b1b;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+html::-webkit-scrollbar-thumb {
+  background-color: #B22028;
+}
+
+$default-color: #FFF;
+$accent-color: #B22028;
+
+$title-font-family: 'Staatliches';
+$info-text-font-family: 'SulphurPoint-Regular';
+
+$div-flex: flex;
+
+$min-width-phone: 1px;
+$max-width-phone: 767px;
+
+$min-width-tablet: 768px;
+$max-width-tablet: 1024px;
+
+$min-width-desktop: 1024px;
+
+body {
+  overflow-x: hidden;
+}
+
+html, body, span, div, ul, li, button, input {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+input {
+  font-family: $info-text-font-family;
+}
+
+@mixin global-styling-mixin ($title-size-140, $info-text-size-42) {
+  .title-size-140 {
+    font-size: $title-size-140;
+    line-height: $title-size-140;
+  }
+
+  .info-text-size-42 {
+    font-size: $info-text-size-42;
+    line-height: $info-text-size-42;
+  }
+}
+
+@mixin app-logo-styling-mixin ($app-logo-height, $app-logo-width) {
+  .app-logo {
+    height: $app-logo-height;
+    width: $app-logo-width;
+    margin: auto;
+  }
+}
+
+@mixin move-animations-mixin ($toFromTop) {
+  @keyframes moveAvatarTop {
+    from {
+      transform: scale(1) translateY(0);
+    }
+  
+    to {
+      transform: scale(1) translateY($toFromTop);
+    }
+  }
+  
+  @keyframes moveAvatarBack {
+    from {
+      transform: scale(1) translateY($toFromTop);
+    }
+  
+    to {
+      transform: scale(1) translateY(0);
+    }
+  }
+}
+
+@media only screen and (min-width: $min-width-phone) and (max-width: $max-width-phone) {
+  @include global-styling-mixin($title-size-140: 50px, $info-text-size-42: 12px);
+
+  @include app-logo-styling-mixin($app-logo-height: 40px, $app-logo-width: 36px);
+
+  @include move-animations-mixin($toFromTop: -50px);
+}
+
+@media only screen and (min-width: $min-width-tablet) {
+  @include global-styling-mixin($title-size-140: 100px, $info-text-size-42: 24px);
+  
+  @include app-logo-styling-mixin($app-logo-height: 68px, $app-logo-width: 58px);
+
+  @include move-animations-mixin($toFromTop: -100px)
+}
+
+.sulphurut-point {
+  font-family: $info-text-font-family;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: $info-text-font-family;
+  position: relative;
+  background-color: #232323;
+}
+
+#background-image {
+  background-image: url('./static/images/default-background-image.png');
+}
+
+#card-background-image {
+  background-size: 126%;
+  background-position: 53% 48%;
+  background-image: url('./static/images/card-background-image.jpg');
+}
+
+.border-image {
+  border-image: url('./static/images/card-background-image.jpg') 30;
+}
+
+.title {
+  font-family: $title-font-family;
+  color: $accent-color;
+  text-align: center;
+}
+
+.info-text {
+  font-family: $info-text-font-family;
+  color: $default-color;
+  text-align: center;
+}
+
+.flex {
+  display: $div-flex;
+}
+
+.flex-column {
+  display: $div-flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: $div-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col-center {
+  display: $div-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.entrance-from-right {
+  animation-name: fadeInFromRight;
+  animation-duration: .6s;
+  animation-fill-mode: both;
+}
+
+.entrance-from-left {
+  animation-name: fadeInFromLeft;
+  animation-duration: .6s;
+  animation-fill-mode: both;
+}
+
+.leave-to-left {
+  animation-name: fadeOutToLeft;
+  animation-duration: .6s;
+  animation-fill-mode: both;
+}
+
+.leave-to-right {
+  animation-name: fadeOutToRight;
+  animation-duration: .6s;
+  animation-fill-mode: both;
+}
+
+.leave-fade-out {
+  animation-name: fadeOut;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+}
+
+.entrence-fade-in {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.move-avatar-top {
+  animation-name: moveAvatarTop;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+}
+
+.move-avatar-back {
+  animation-name: moveAvatarBack;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100vw);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100vw);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOutToLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes fadeOutToRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    display: none;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
