@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Deployed at:
+Open [https://lukajez.github.io/landing](https://lukajez.github.io/landing) to view it in the browser.
 
 ## Available Scripts
 
