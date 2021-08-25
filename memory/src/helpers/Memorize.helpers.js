@@ -20,9 +20,6 @@ const NUMBER_OF_UNIQUE_CARDS_BY_DIFFICULTY_LEVEL = {
   'hard': 15
 }
 
-console.log(process.env.PUBLIC_URL)
-console.log(process.env.NODE_ENV)
-
 export const generateGameCards = (difficulty = '') => {
   const gameCards = []
 
