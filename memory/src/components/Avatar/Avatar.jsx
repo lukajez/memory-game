@@ -1,4 +1,5 @@
 import { AvatarStyled } from './AvatarStyled'
+// import AVATAR_ONE_IMG from '../static/images/avatars/avatar-one.png'
 
 const Avatar = ({
   isActiveItem,

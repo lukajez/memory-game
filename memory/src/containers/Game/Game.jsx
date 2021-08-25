@@ -43,7 +43,7 @@ const Game = () => {
   const history = useHistory()
   const [dimensions] = useHolderWidth()
   const dispatch = useDispatch()
-  
+
   // state map
   const {
     cards,

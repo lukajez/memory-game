@@ -1,9 +1,9 @@
-import AVATAR_ONE_IMG from '../static/images/avatar-one.png'
-import AVATAR_ONE_VID from '../static/videos/avatar-one-vid.webm'
-import AVATAR_TWO_IMG from '../static/images/avatar-two.png'
-import AVATAR_TWO_VID from '../static/videos/avatar-two-vid.webm'
-import AVATAR_THREE_IMG from '../static/images/avatar-three.png'
-import AVATAR_THREE_VID from '../static/videos/avatar-three-vid.webm'
+import AVATAR_ONE_IMG from '~static/images/avatars/avatar-one.png'
+import AVATAR_ONE_VID from '~static/videos/avatar-one-vid.webm'
+import AVATAR_TWO_IMG from '~static/images/avatars/avatar-two.png'
+import AVATAR_TWO_VID from '~static/videos/avatar-two-vid.webm'
+import AVATAR_THREE_IMG from '~static/images/avatars/avatar-three.png'
+import AVATAR_THREE_VID from '~static/videos/avatar-three-vid.webm'
 
 export const AVATARS = Object.freeze([
   {
@@ -17,7 +17,7 @@ export const AVATARS = Object.freeze([
     video: AVATAR_TWO_VID
   },
   {
-    name: 'Aragorn ELF',
+    name: 'Aragorn Human',
     image: AVATAR_THREE_IMG,
     video: AVATAR_THREE_VID
   }
