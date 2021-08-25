@@ -46,7 +46,7 @@ const getStyle = isActiveItem => ({
     }`
 })
 
-const generateBackgroundImage = url => ({ 'background-image': `url(${process.env.PUBLIC_URL}/${url})` })
+const generateBackgroundImage = url => ({ 'background-image': `url(${url})` })
 
 export const AvatarStyled = styled.li`
   height: 400px;

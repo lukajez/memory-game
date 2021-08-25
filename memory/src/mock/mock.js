@@ -2,8 +2,8 @@ export const PERSISTED_STATE_MOCK = {
   currentActiveUser: {
     avatar: {
       name: 'Aragorn ELF',
-      image: '/static/media/avatar-three.c4a19f3b.png',
-      video: '/static/media/avatar-three-vid.f5c3f006.webm',
+      image: '/memory-game/static/media/avatar-three.c4a19f3b.png',
+      video: '/memory-game/static/media/avatar-three-vid.f5c3f006.webm',
     },
     difficulty: 'easy',
     username: 'SDSFX',
@@ -15,8 +15,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Legolas ELF',
-        image: '/static/media/avatar-two.78ba22d7.png',
-        video: '/static/media/avatar-two-vid.dad490c5.webm',
+        image: '/memory-game/static/media/avatar-two.78ba22d7.png',
+        video: '/memory-game/static/media/avatar-two-vid.dad490c5.webm',
       },
       difficulty: 'easy',
       username: 'WDAASDWQEQ',
@@ -29,8 +29,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Legolas ELF',
-        image: '/static/media/avatar-two.78ba22d7.png',
-        video: '/static/media/avatar-two-vid.dad490c5.webm',
+        image: '/memory-game/static/media/avatar-two.78ba22d7.png',
+        video: '/memory-game/static/media/avatar-two-vid.dad490c5.webm',
       },
       difficulty: 'medium',
       username: 'AW2A',
@@ -41,8 +41,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Auckes WITCHER',
-        image: '/static/media/avatar-one.a7424c3b.png',
-        video: '/static/media/avatar-one-vid.087b8849.webm',
+        image: '/memory-game/static/media/avatar-one.a7424c3b.png',
+        video: '/memory-game/static/media/avatar-one-vid.087b8849.webm',
       },
       difficulty: 'medium',
       username: 'ASASACCA',
@@ -53,8 +53,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Auckes WITCHER',
-        image: '/static/media/avatar-one.a7424c3b.png',
-        video: '/static/media/avatar-one-vid.087b8849.webm',
+        image: '/memory-game/static/media/avatar-one.a7424c3b.png',
+        video: '/memory-game/static/media/avatar-one-vid.087b8849.webm',
       },
       difficulty: 'medium',
       username: 'WAFAS',
@@ -65,8 +65,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Legolas ELF',
-        image: '/static/media/avatar-two.78ba22d7.png',
-        video: '/static/media/avatar-two-vid.dad490c5.webm',
+        image: '/memory-game/static/media/avatar-two.78ba22d7.png',
+        video: '/memory-game/static/media/avatar-two-vid.dad490c5.webm',
       },
       difficulty: 'easy',
       username: 'FDSFS',
@@ -79,8 +79,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Legolas ELF',
-        image: '/static/media/avatar-two.78ba22d7.png',
-        video: '/static/media/avatar-two-vid.dad490c5.webm',
+        image: '/memory-game/static/media/avatar-two.78ba22d7.png',
+        video: '/memory-game/static/media/avatar-two-vid.dad490c5.webm',
       },
       difficulty: 'medium',
       username: 'DSFSDFS X',
@@ -91,8 +91,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Aragorn ELF',
-        image: '/static/media/avatar-three.c4a19f3b.png',
-        video: '/static/media/avatar-three-vid.f5c3f006.webm',
+        image: '/memory-game/static/media/avatar-three.c4a19f3b.png',
+        video: '/memory-game/static/media/avatar-three-vid.f5c3f006.webm',
       },
       difficulty: 'easy',
       username: 'SDSFX',
@@ -105,8 +105,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Legolas ELF',
-        image: '/static/media/avatar-two.78ba22d7.png',
-        video: '/static/media/avatar-two-vid.dad490c5.webm',
+        image: '/memory-game/static/media/avatar-two.78ba22d7.png',
+        video: '/memory-game/static/media/avatar-two-vid.dad490c5.webm',
       },
       difficulty: 'easy',
       username: 'WDAASDWQEQ',
@@ -115,8 +115,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Legolas ELF',
-        image: '/static/media/avatar-two.78ba22d7.png',
-        video: '/static/media/avatar-two-vid.dad490c5.webm',
+        image: '/memory-game/static/media/avatar-two.78ba22d7.png',
+        video: '/memory-game/static/media/avatar-two-vid.dad490c5.webm',
       },
       difficulty: 'easy',
       username: 'FDSFS',
@@ -125,8 +125,8 @@ export const PERSISTED_STATE_MOCK = {
     {
       avatar: {
         name: 'Aragorn ELF',
-        image: '/static/media/avatar-three.c4a19f3b.png',
-        video: '/static/media/avatar-three-vid.f5c3f006.webm',
+        image: '/memory-game/static/media/avatar-three.c4a19f3b.png',
+        video: '/memory-game/static/media/avatar-three-vid.f5c3f006.webm',
       },
       difficulty: 'easy',
       username: 'SDSFX',
